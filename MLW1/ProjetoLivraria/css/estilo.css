@@ -1,0 +1,24 @@
+header {
+    text-align: center;
+}
+
+#topo h1 {
+    color: red;
+}
+
+.destaques h2 {
+    color: blue;
+}
+
+.destaques img {
+    width: 150px;
+    height: 230px;
+}
+
+.destaques p {
+    font-weight: bold;
+}
+
+.sobre h3 {
+    color: red;
+}
