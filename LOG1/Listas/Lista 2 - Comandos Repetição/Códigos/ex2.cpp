@@ -28,22 +28,22 @@ int main() {
         }
     }
 
-    porcentEntre1E15 = (entre1E15 / 100) * 15;
-    porcentEntre16E30 = (entre16E30 / 100) * 15;
-    porcentEntre31E45 = (entre31E45 / 100) * 15;
-    porcentEntre46E60 = (entre46E60 / 100) * 15;
-    porcentMaiorDe60 = (maiorDe60 / 100) * 15;
+    porcentEntre1E15 = (entre1E15 * 100) / 15;
+    porcentEntre16E30 = (entre16E30 * 100) / 15;
+    porcentEntre31E45 = (entre31E45 * 100) / 15;
+    porcentEntre46E60 = (entre46E60 * 100) / 15;
+    porcentMaiorDe60 = (maiorDe60 * 100) / 15;
 
     cout << "Pessoas entre 1 e 15 anos: " << entre1E15 << endl;
-    cout << "Porcentagem: " << porcentEntre1E15 << endl;
+    cout << "Porcentagem: " << porcentEntre1E15 << "%" << endl;
     cout << "Pessoas entre 16 e 30 anos: " << entre16E30 << endl;
-    cout << "Porcentagem: " << porcentEntre16E30 << endl;
+    cout << "Porcentagem: " << porcentEntre16E30 << "%" <<  endl;
     cout << "Pessoas entre 31 e 45 anos: " << entre31E45 << endl;
-    cout << "Porcentagem: " << porcentEntre31E45 << endl;
+    cout << "Porcentagem: " << porcentEntre31E45 << "%" <<  endl;
     cout << "Pessoas entre 46 e 60 anos: " << entre46E60 << endl;
-    cout << "Porcentagem: " << porcentEntre46E60 << endl;
+    cout << "Porcentagem: " << porcentEntre46E60 << "%" <<  endl;
     cout << "Pessoas maiores de 60 anos: " << maiorDe60 << endl;
-    cout << "Porcentagem: " << porcentMaiorDe60 << endl;
+    cout << "Porcentagem: " << porcentMaiorDe60 << "%" <<  endl;
     
 
     return 0;
