@@ -3,30 +3,32 @@
 
 using namespace std;
 
+int numero, divisor, divisores, numerosPrimos=0, i=0;
+
 int main()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    int divisor, divisores, numero;
-
-    cout << "Insira um número: ";
-    cin >> numero;
-
-    for (divisor = 1; divisor <= numero; divisor++)
+    for (i = 1; i <= 10; i++)
     {
-        if (numero % divisor)
+        divisores = 0;
+
+        cout << i << "- Insira um número: ";
+        cin >> numero;
+
+        for (divisor = 1; divisor <= numero; divisor++)
         {
-            divisores++;
+            if (numero % divisor == 0)
+            {
+                divisores++;
+            }
         }
-        if (divisores == 2)
+        if (divisores == 1 || divisores == 2)
         {
-            cout << "É primo!" << endl;
-        }
-        else
-        {
-            cout << "Não é primo!" << endl;
+            numerosPrimos++;
         }
     }
+    cout << "Nesta sequência existem " << numerosPrimos << " números primos." << endl;
 
     return 0;
 }

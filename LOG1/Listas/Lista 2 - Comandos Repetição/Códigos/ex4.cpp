@@ -3,43 +3,31 @@
 
 using namespace std;
 
+int numero, divisor, divisores=0;
+
 int main ()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    int numero, divisor=1, divisores=0, continuar=1;
-
     cout << "Insira um número: ";
     cin >> numero;
 
-    do
+    for (divisor=1 ; divisor <= numero ; divisor++)
     {
         if (numero % divisor == 0)
         {
-            if (divisores > 2)
-            {
-                cout << "Este número não é primo!" << endl;
-                continuar = 0;
-            }
-            else
-            {
-                cout << divisor << " é divisor de " << numero << endl;
-                divisor++;
-                divisores++;
-            }
-        }
-        else
-        {
-            divisor++;
-        }
-
-        if (divisores == 2)
-        {
-            continuar = 0;
-            cout << numero << " é primo!" << endl;
+            divisores++;
         }
     }
-    while (continuar == 1);
-    
+
+    if (divisores == 2 || divisores == 1)
+    {
+        cout << "Este número É PRIMO!!" << endl;
+    }
+    else
+    {
+        cout << "Este número NÃO É PRIMO!!" << endl;
+    }
+
     return 0;
 }
