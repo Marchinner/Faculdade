@@ -1,26 +1,25 @@
 #include <iostream>
 #include <locale.h>
-#include <iomanip>
 
 using namespace std;
 
-float converterTemp (float fah)
-{
-    float celsius = ( ( (fah - 32) * 5) / 9);
+float ConverteCelsius(float fah) {
+    float celsius;
+    
+    celsius = ( ( ( fah - 32) * 5 ) / 9 );
 
     return celsius;
 }
 
-int main ()
-{
+int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    float fah, celsius;
+    float fah;
 
-    cout << "Insira uma temperatura em Fahrenheit para ser convertida para Celsius: ";
+    cout << "Insira um valor de temperatura em Fahrenheit: ";
     cin >> fah;
 
-    cout << "O valor da temperatuda convertida para Celsius é igual à: " << endl << setprecision(4) << converterTemp(fah) << "°F" << endl;
+    cout << fah << "°F = " << ConverteCelsius(fah) << "°C" << endl;
 
     return 0;
 }
