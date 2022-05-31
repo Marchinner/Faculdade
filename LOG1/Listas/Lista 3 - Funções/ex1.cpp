@@ -3,7 +3,8 @@
 
 using namespace std;
 
-float ConverteCelsius(float fah) {
+float ConverteCelsius(float fah) 
+{
     float celsius;
     
     celsius = ( ( ( fah - 32) * 5 ) / 9 );
@@ -11,7 +12,8 @@ float ConverteCelsius(float fah) {
     return celsius;
 }
 
-int main() {
+int main() 
+{
     setlocale(LC_ALL, "Portuguese");
 
     float fah;
