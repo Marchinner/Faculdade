@@ -4,11 +4,15 @@
 using namespace std;
 
 char VerificaPositivo(int numero) {
+    char resultado;
+
     if(numero >= 0) {
-        return 'P';
+        resultado = 'P';
     } else {
-        return 'N';
+        resultado = 'N';
     }
+
+    return resultado;
 }
 
 int main() {
