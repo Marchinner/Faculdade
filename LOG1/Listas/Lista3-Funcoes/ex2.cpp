@@ -3,24 +3,26 @@
 
 using namespace std;
 
-int verificar(int numero) {
-    if(numero >= 0 && numero <= 10) {
-        return 0;
+int Verificar(int num) {
+    int retorno;
+
+    if(num >= 0 && num <= 10) {
+        retorno = 0;
+    } else {
+        retorno = 1;
     }
-    else {
-        return 1;
-    }
+
+    return retorno;
 }
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    int numero;
+    int num;
 
     cout << "Insira um número: ";
-    cin >> numero;
+    cin >> num;
 
-    cout << "O programa retornou valor: " << verificar(numero) << endl;
+    cout << "O programa retornou " << Verificar(num) << endl;
 
-    return 0;
 }
