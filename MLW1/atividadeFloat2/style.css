@@ -1,0 +1,31 @@
+header {
+    background-color: beige;
+    height: 3.125rem;
+    margin: 5px;
+}
+
+nav {
+    background-color: blue;
+    margin: 5px;
+}
+
+#menu {
+    background-color: red;
+    float: right;
+    width: 30%;
+    height: 600px;
+    margin: 20px 20px 30px 2px;
+}
+
+article {
+    background-color: green;
+    float: left;
+    width: 63%;
+    height: 600px;
+    margin: 20px 2px 30px 20px;
+}
+
+footer {
+    background-color: gray;
+    clear: both;
+}
