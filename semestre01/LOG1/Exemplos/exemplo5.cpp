@@ -60,7 +60,7 @@ int main() {
     
     lerMatriz(matrizA);
 
-    maiorQueTrinta(matrizA);
+    cout << "A matriz contém " << maiorQueTrinta(matrizA) << " elementos maiores que 30!" << endl;
 
     montarMatriz(matrizA, matrizB);
 
