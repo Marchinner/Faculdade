@@ -12,11 +12,11 @@ void lerVetor(int vetorA[10]) {
     }
 }
 
-void imprimirVetor(int vetorA[10]) {
+void imprimirVetor(int vetorB[10]) {
     int contador;
 
     for(contador = 0 ; contador < 10; contador++) {
-        cout << "Valor [" << contador << "]: " << vetorA[contador] << endl;
+        cout << "Valor [" << contador << "]: " << vetorB[contador] << endl;
     }
 }
 
@@ -26,15 +26,6 @@ void inverterVetor(int vetorA[10], int vetorB[10]) {
     for(contador = 0; contador < 10; contador++) {
         vetorB[9 - contador] = vetorA[contador];
     }
-}
-
-int somarVetor(int vetorA[10]) {
-    int contador, soma;
-    for(contador = 0; contador < 10; contador++) {
-        soma += vetorA[contador];
-    }
-
-    return soma;
 }
 
 int main() {
@@ -47,8 +38,6 @@ int main() {
     inverterVetor(x, y);
 
     imprimirVetor(y);
-
-    cout << endl << "Soma do vetor: " << somarVetor(x) << endl;
 
     return 0;
 }
