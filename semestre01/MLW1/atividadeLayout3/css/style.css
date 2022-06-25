@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+#cabecalho {
+    float: none;
+    background-color: antiquewhite;
+}
+
+#menu {
+    float: right;
+    background-color: red;
+}
+
+#menuLateral {
+    float: left;
+    background-color: blue;
+}
+
+#conteudo {
+    float: left;
+    background-color: green;
+}
+
+#footer {
+    float: none;
+    clear: both;
+}
