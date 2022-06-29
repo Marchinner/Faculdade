@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(250, 250, 250);
+}
+
+header img {
+    width: 6.25rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #545454;
+}
+
+nav a {
+    padding: 10px;
+}
+
+a:link {
+    color: rgb(214, 226, 38);
+}
+
+a:hover {
+    color: purple;
+}
+
+#menu1 {
+    background-color: #545454;
+    float: left;
+    width: 20%;
+}
+
+li {
+    padding-bottom: 1.85rem;
+}
+
+ul li:hover {
+    color: aqua;
+}
+
+ol li:hover {
+    color: red
+}
+
+#conteudo {
+    display: flex;
+}
+
+main {
+    background-color: blueviolet;
+    width: 60%;
+    padding-top: 1.85rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+
+#ruinWindows {
+    text-decoration: line-through;
+}
+
+#ruinWindows:hover {
+    color: red;
+}
+
+#pressao:hover {
+    color: red;
+}
+
+#menu2 {
+    background-color: aquamarine;
+    float: right;
+    width: 20%;
+}
+
+#logos {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#logos img {
+    width: 50px;
+}
