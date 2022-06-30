@@ -1,23 +1,31 @@
 body {
-    background-color: rgb(250, 250, 250);
+    background-color: #FDF6E3;
 }
 
 header img {
     width: 6.25rem;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+header img:hover {
+    -webkit-transform: rotateZ(-20deg) .5s ease;
+    transform: rotateZ(-20deg);
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: beige;
+    background-color: #EEE8D5;
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #545454;
+    background-color: #586E75;
+    border-radius: 3px;
 }
 
 nav a {
@@ -25,6 +33,10 @@ nav a {
 }
 
 a:link {
+    color: #B58900;
+}
+
+a:visited {
     color: rgb(214, 226, 38);
 }
 
@@ -32,22 +44,32 @@ a:hover {
     color: purple;
 }
 
+a:active {
+    color: red;
+}
+
 #menu1 {
-    background-color: #545454;
+    background-color: #586E75;
     float: left;
     width: 20%;
+    border-bottom-left-radius: 5px;
 }
 
 li {
     padding-bottom: 1.85rem;
+    color: #002B36;
+}
+
+ul li, ol li{
+    margin-left: -20px;
 }
 
 ul li:hover {
-    color: aqua;
+    color: #859900;
 }
 
 ol li:hover {
-    color: red
+    color: #B58900;
 }
 
 #conteudo {
@@ -55,11 +77,13 @@ ol li:hover {
 }
 
 main {
-    background-color: blueviolet;
+    background-color: #93A1A1;
     width: 60%;
     padding-top: 1.85rem;
     padding-left: 1rem;
     margin-top: 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #ruinWindows {
@@ -75,9 +99,10 @@ main {
 }
 
 #menu2 {
-    background-color: aquamarine;
+    background-color: #586E75;
     float: right;
     width: 20%;
+    border-bottom-right-radius: 5px;
 }
 
 #logos {
@@ -88,4 +113,11 @@ main {
 
 #logos img {
     width: 50px;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+
+#logos img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
 }
