@@ -1,0 +1,11 @@
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.csproj.AssemblyReference.cache
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.csproj.SuggestedBindingRedirects.cache
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.frm02.resources
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.Properties.Resources.resources
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.csproj.GenerateResource.cache
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\bin\Debug\ex02.exe.config
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\bin\Debug\ex02.exe
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\bin\Debug\ex02.pdb
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.exe
+\\wsl.localhost\Ubuntu\home\felipefreitasdev\Documents\Faculdade\semestre02\POOI2\listaExercicios01\ex02\obj\Debug\ex02.pdb
